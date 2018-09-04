@@ -1,10 +1,12 @@
-package com.capgemini.icici.domain;
+package com.capgemini.day4.tests;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import com.capgemini.icici.domain.BankAccount;
 
 class BankAccountTest {
 		BankAccount account;

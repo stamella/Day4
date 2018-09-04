@@ -1,10 +1,14 @@
-package com.capgemini.icici.domain;
+package com.capgemini.day4.tests;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import com.capgemini.icici.domain.Employee;
+import com.capgemini.icici.domain.President;
+import com.capgemini.icici.domain.SalesManager;
 
 
 
@@ -16,9 +20,9 @@ import org.junit.jupiter.api.Test;
 
 			@BeforeEach
 			void setUp() {
-				employee = new Employee(1234, "Shubham Srivastava", 50000, 1000);
-				salesmanager = new SalesManager(1234, "Shubham Srivastava", 50000, 1000);
-				president = new President(1234, "Shubham Srivastava", 50000, 1000);
+				employee = new Employee(1234, "Swathi", 50000, 1000);
+				salesmanager = new SalesManager(1234, "Swathi", 50000, 1000);
+				president = new President(1234, "Swathi", 50000, 1000);
 				president.setKilometresTravelled(2000);
 			}
 
